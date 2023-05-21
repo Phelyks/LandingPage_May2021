@@ -1,6 +1,103 @@
-/* Global Styles */
-body{
+/* CCS Styles go here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-image{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.cta-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cta-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-description {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.feature-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-description {
     font-size: 16px;
+    color #777
+}
+
+.testimonial-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonial-quote {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    font-size: 18px;
+    color: #777;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
 }
